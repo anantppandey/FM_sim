@@ -2,7 +2,8 @@ Introduction – The Project features a drivable model of the formula manipal’
 
 
 
-How to Use – There are two ways of accessing the simulation -
+How to Use – Copy all the packages from the src folder into a new Workspace and run catkin_make then follow the steps given below.
+There are two ways of accessing the simulation -
     • Run the following commands in seprate terminals and then finally move back to the turtlebot_teleop terminal to control the vehicle.
         	
                 • roslaunch catvehicle FM_car.launch 
