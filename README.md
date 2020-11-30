@@ -18,8 +18,6 @@ There are two ways of accessing the simulation -
 
                 • roslaunch catvehicle catvehicle_spawn.launch robot:=catvehicle X:=0 Y:=0 yaw:=1.5707963267
 
-                • roslaunch catvehicle stepvel.launch robot:=batvehicle
-
                 • roslaunch turtlebot_teleop keyboard_teleop.launch
 
                 • rosrun topic_tools relay /cmd_vel_mux/input/teleop /catvehicle/cmd_vel		
