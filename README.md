@@ -1,27 +1,27 @@
-Introduction – The Project features a drivable model of the formula manipal’s race car in the         simulated real world enviroment of Gazebo. The project required creation of a gazebo model using the provided CAD model, adding the necessary sensors to it that can publish their outputs to appropriate ROS topics.
+**Introduction** – The Project features a drivable model of the formula manipal’s race car in the         simulated real world enviroment of Gazebo. The project required creation of a gazebo model using the provided CAD model, adding the necessary sensors to it that can publish their outputs to appropriate ROS topics.
  
 
 How to Use – There are two ways of accessing the simulation - 
     • Empty World - To run the simulation in an empty world.
         
-                • roslaunch catvehicle FM_car.launch 
+                `roslaunch catvehicle FM_car.launch` 
       
       Alternatively -
-      
+      ```
                 • roslaunch catvehicle catvehicle_empty.launch
                 • roslaunch catvehicle catvehicle_spawn.launch robot:=catvehicle X:=0 Y:=0 yaw:=1.5707963267
-	
+	```
 	Here the first command launces the empty world and the second one launches the vehicle
 
     • Acceleration Track - To run the simulation in an acceleration track.
         
-                • roslaunch catvehicle fm_acceleration.launch
+                `• roslaunch catvehicle fm_acceleration.launch`
       
       Alternatively -
-      
+      ```
                 • roslaunch eufs_gazebo acceleration.launch 
                 • roslaunch catvehicle catvehicle_spawn.launch robot:=catvehicle X:=-53
-
+```
     • Skidpad Track - To run the simulation in an acceleration track.
         
                 • roslaunch catvehicle fm_skidpad.launch
