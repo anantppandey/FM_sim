@@ -47,5 +47,7 @@ After executing the second command you need to return to the terminal with the f
 
 
 **P.S.** -The launch file does not seem to work in lower end laptops so the alternative methord is  	recommended.
+
 -You need to increase the velocity in the turtlebot_teleop terminal with the “W” key first to a 	sufficient velocity for the vehicle to move.
+
 -The vehicle moves with the < U, I, O, J, K, L, M, ‘,’, ‘.’ > keys as explained the 	turtlebot_teleop_keyboard terminal.
