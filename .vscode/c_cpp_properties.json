@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/anant/FM_sim/devel/include/**",
+        "/home/anant/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/anant/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/anant/FM_sim/src/fm_catvehicle/include/**",
+        "/home/anant/FM_sim/src/control_toolbox/include/**",
+        "/home/anant/catkin_ws/src/first_urdf/include/**",
+        "/home/anant/catkin_ws/src/learning_tf/include/**",
+        "/home/anant/FM_sim/src/sicktoolbox/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}
